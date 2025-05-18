@@ -1,4 +1,5 @@
 import streamlit as st
-
+file = open("index.html", "r")
+rfile = file.read()
 st.title("My Hosted Text")
-st.write("This is the text you can edit in the Python file and it showeeeeeees up online!")
+st.write(rfile)
